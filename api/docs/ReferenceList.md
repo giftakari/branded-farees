@@ -1,0 +1,29 @@
+# ReferenceList
+
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**type** | **str** |  | 
+**id** | **str** | Uniquely identifies for the Reference List | [optional] 
+
+## Example
+
+```python
+from openapi_client.models.reference_list import ReferenceList
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ReferenceList from a JSON string
+reference_list_instance = ReferenceList.from_json(json)
+# print the JSON string representation of the object
+print ReferenceList.to_json()
+
+# convert the object into a dict
+reference_list_dict = reference_list_instance.to_dict()
+# create an instance of ReferenceList from a dict
+reference_list_form_dict = reference_list.from_dict(reference_list_dict)
+```
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
